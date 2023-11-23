@@ -4,7 +4,7 @@ WORKDIR /user/app
 
 COPY package.json /usr/app/
 
-COPY server.json /usr/app/
+COPY server.js /usr/app/
 
 # install the current packages
 RUN npm install
